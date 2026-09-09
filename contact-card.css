@@ -1,0 +1,74 @@
+.vanilla-dialog {
+  width: min(92vw, 430px);
+  max-height: 88svh;
+  padding: 0;
+  color: #f8fbff;
+  background: transparent;
+  border: 0;
+  overflow: visible;
+}
+
+.vanilla-dialog::backdrop {
+  background: rgba(2, 9, 23, 0.78);
+  backdrop-filter: blur(8px);
+}
+
+.vanilla-dialog-card {
+  position: relative;
+  overflow: auto;
+  max-height: 88svh;
+  padding: 24px;
+  background: linear-gradient(160deg, #102d56, #071a35 75%);
+  border: 1px solid rgba(106, 199, 235, 0.3);
+  border-radius: 26px;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.55);
+}
+
+.vanilla-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 38px;
+  height: 38px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.vanilla-content { margin-top: 20px; }
+.network-grid { display: grid; gap: 14px; }
+
+.network-card {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 1px 14px;
+  align-items: center;
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 22px;
+  text-decoration: none;
+}
+
+.network-card img {
+  grid-row: 1 / 4;
+  width: 34px;
+  height: 34px;
+  margin: auto;
+}
+
+.network-card small { opacity: 0.75; text-transform: uppercase; letter-spacing: 0.1em; }
+.network-card strong { font-size: 1.25rem; }
+.network-card span { opacity: 0.88; }
+.instagram-card { background: linear-gradient(135deg, #6745d1, #dc3f76 52%, #f39b35); }
+.facebook-card { background: linear-gradient(135deg, #0752b9, #1877f2 58%, #4aa0ff); }
+
+@media (max-width: 370px) {
+  .vanilla-dialog-card { padding: 20px 16px; }
+}
