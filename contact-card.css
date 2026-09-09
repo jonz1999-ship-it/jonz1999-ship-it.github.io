@@ -69,6 +69,17 @@
 .instagram-card { background: linear-gradient(135deg, #6745d1, #dc3f76 52%, #f39b35); }
 .facebook-card { background: linear-gradient(135deg, #0752b9, #1877f2 58%, #4aa0ff); }
 
+.portfolio-grid .featured-project { grid-column: 1 / -1; }
+.portfolio-grid .featured-project img { height: 245px; object-position: center; }
+.featured-project figcaption { padding: 14px; }
+.featured-project figcaption strong { display: block; color: #f2f9ff; font-size: 0.95rem; }
+.featured-project figcaption p {
+  margin: 6px 0 0;
+  color: #b8cde0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 370px) {
   .vanilla-dialog-card { padding: 20px 16px; }
 }

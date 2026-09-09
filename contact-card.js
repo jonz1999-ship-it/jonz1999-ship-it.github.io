@@ -57,6 +57,13 @@
     `<div class="portfolio-grid">
       <figure><img src="/portfolio/tarjeta-nfc.jpg" alt="Llavero con tarjeta de presentación NFC"><figcaption>Tarjeta de contacto NFC</figcaption></figure>
       <figure><img src="/portfolio/resenas-google.jpg" alt="Exhibidor con QR y NFC para reseñas de Google"><figcaption>Reseñas de Google con NFC + QR</figcaption></figure>
+      <figure class="featured-project">
+        <img src="/portfolio/llavero-whatsapp-nfc.png" alt="Llavero NFC personalizado para abrir un chat directo de WhatsApp">
+        <figcaption>
+          <strong>Llavero NFC para contacto por WhatsApp</strong>
+          <p>Con un solo toque, el cliente abre una conversación directa por WhatsApp, sin dictar ni guardar el número. Agiliza el contacto, reduce pasos y facilita una interacción inmediata con cada persona.</p>
+        </figcaption>
+      </figure>
     </div>`
   );
 
