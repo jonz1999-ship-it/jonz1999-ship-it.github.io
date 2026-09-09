@@ -55,7 +55,6 @@
     "Proyectos",
     "Trabajo realizado",
     `<div class="portfolio-grid">
-      <figure><img src="/portfolio/tarjeta-nfc.jpg" alt="Llavero con tarjeta de presentación NFC"><figcaption>Tarjeta de contacto NFC</figcaption></figure>
       <figure><img src="/portfolio/resenas-google.jpg" alt="Exhibidor con QR y NFC para reseñas de Google"><figcaption>Reseñas de Google con NFC + QR</figcaption></figure>
       <figure class="featured-project">
         <img src="/portfolio/llavero-whatsapp-nfc.png" alt="Llavero NFC personalizado para abrir un chat directo de WhatsApp">
